@@ -341,7 +341,7 @@
         }
     }
     
-    @media (max-width:412px) {
+    @media (max-width:431px) {
         .nav-bar{
             flex-direction: column;
             gap: 8px;
@@ -363,16 +363,24 @@
         .about_text{
             font-size: 1rem;
             line-height: 2rem;
+            
+        }
+        .text_para{
+            grid-template-columns: 1fr;
         }
         .text_para_text{
             line-height: 1rem;
             font-size: 1rem;
+            text-align: center;
         }
         .footer_link {
             font-size: 16px;
         }
         .button {
             font-size: 14px;
+        }
+        .spacer{
+            display: none;
         }
     }
     
