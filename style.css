@@ -27,6 +27,12 @@
         gap:32px;
         align-items:center;
     }
+    .nav-bar a:hover{
+        background-color: rgba(56, 22, 100, 1);
+        color:white;
+        border-radius: 7px;
+        width:200%
+    }
     
     .header-logo{
         color:rgba(56, 22, 100, 1);
@@ -229,7 +235,10 @@
         font-family: 'Space Mono', sans-serif;
         color: rgba(68, 10, 143, 1);
     }
-    
+    .button:hover{
+        background-color: rgba(56, 22, 100, 1);
+        color:white
+    }
     
     /* animations  */
     
@@ -364,6 +373,9 @@
             font-size: 1rem;
             line-height: 2rem;
             
+        }
+        .img_element{
+            font-size: 3rem ;
         }
         .text_para{
             grid-template-columns: 1fr;
