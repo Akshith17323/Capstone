@@ -174,12 +174,17 @@
         color:rgba(56, 22, 100, 1)
     }
     
-    
+    .footer_div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
     .footer{
         padding: 96px 0px 24px 0px;
         border-top: 1px solid rgba(236, 246, 254, 1);
         margin-bottom:50px;
+        
     }
     .footer_link{
         font-family: 'Syne', sans-serif;
@@ -193,7 +198,7 @@
         text-decoration: none;
     }
     .button{
-        float: right;
+        /* float: right; */
         padding: 12px 24px;
         gap: 0px;
         border-radius: 8px;
